@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
 
-body{
+body {
     margin: 0;
+    background-image: url("img/home-bg.png");
 }
 
 .nav {

@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+body {
+    background: rgb(193,238,147);
+    background: linear-gradient(54deg, rgba(193,238,147,1) 25%, rgba(127,222,215,1) 75%);
+    font-family: 'Didact Gothic', sans-serif;
+
+}
+
+.navbar-custom {
+    background-color: rgba(13,176,163,0.8);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    backdrop-filter: blur(4px);
+    
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.jumbotron {
+    padding-top: 200px;
+    margin-bottom: 2rem;
+    min-height: 635px;
+    background-color: transparent;
+    background-image: url(img/home-top-withe.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0;
+}

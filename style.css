@@ -5,6 +5,7 @@ body {
     background: rgb(193,238,147);
     background: linear-gradient(54deg, rgba(193,238,147,1) 25%, rgba(127,222,215,1) 75%);
     font-family: 'Didact Gothic', sans-serif;
+    color: #203C61;
 
 }
 
@@ -19,15 +20,43 @@ body {
 .navbar-nav {
     float:none;
     margin:0 auto;
-    display: block;
-    text-align: center;
+}
+.navbar-nav .nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .navbar-nav > li {
     display: inline-block;
     float:none;
-    padding-left: 30px;
-    padding-right: 30px;
+    
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255, 255, 255,);
+    border: 0px;
+}
+
+button:focus {
+    outline: 0px;
+}
+
+.btn-primary{
+    background-color: #0DB0A3;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #7FDED7;
+    border: none;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #7FDED7;
+    border: none;
 }
 
 
@@ -40,4 +69,14 @@ body {
     background-position: center;
     background-size: cover;
     border-radius: 0;
+}
+
+.footer-custom{
+    background-color: white; 
+    color: #203C61;  
+}
+
+.footer-a{
+    color: #203C61;
+    text-decoration: none;
 }

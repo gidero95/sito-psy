@@ -55,20 +55,60 @@ button:focus {
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #7FDED7;
+     background-color: #7FDED7;
     border: none;
 }
 
 
 .jumbotron {
-    padding-top: 200px;
-    margin-bottom: 2rem;
-    min-height: 635px;
+    
     background-color: transparent;
-    background-image: url(img/home-top-withe.png);
-    background-position: center;
-    background-size: cover;
+    background-image: url(img/home-top-white.png);
     border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+    height: 536px;
+    margin-bottom: -100px;
+}
+
+.container-home-bottom {
+    
+    background-color: transparent;
+    background-image: url(img/home-bottom-white.png);
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+    height: 340px;
+    margin-top: -100px;
+    margin-bottom: -5px;
+}
+
+
+
+.card {
+    
+    background: rgb(255,255,255);
+    border: none;
+    border-radius: 20px;
+    cursor:pointer;
+    transition:all .4s ease-in-out;
+    padding:1rem;
+    
+}
+
+.card:hover{
+    transform:scale(1.05);
+    box-shadow:5px 5px 5px  #0DB0A3;
+
+}
+
+.row-home {
+
+    padding-top: 100px;
+
+    
 }
 
 .footer-custom{

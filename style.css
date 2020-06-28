@@ -32,7 +32,7 @@ body {
     
 }
 
-.navbar-dark .navbar-toggler {
+ .navbar-toggler {
     color: rgba(255, 255, 255,);
     border: 0px;
 }
@@ -49,18 +49,31 @@ button:focus {
 
 .btn-primary.focus, .btn-primary:focus {
     color: #fff;
-    background-color: #7FDED7;
+    background-color: #0DB0A3;
     border: none;
+    box-shadow: none;
 }
 
 .btn-primary:hover {
     color: #fff;
-     background-color: #7FDED7;
+    background-color: #7FDED7;
     border: none;
 }
 
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color:#0DB0A3;
+    border: none;
+    
+}
 
-.jumbotron {
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+
+    box-shadow: none;
+}
+
+
+.jumbotron-home {
     
     background-color: transparent;
     background-image: url(img/home-top-white.png);
@@ -70,6 +83,19 @@ button:focus {
     background-position: center center;
     height: 536px;
     margin-bottom: -100px;
+}
+
+.jumbotron-contatti {
+    
+    background-color: transparent;
+    background-image: url(img/contatti-top-white.png);
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+    height: 536px;
+    margin-bottom: -250px;
+    
 }
 
 .container-home-bottom {
@@ -85,6 +111,19 @@ button:focus {
     margin-bottom: -5px;
 }
 
+.container-contatti-bottom {
+    
+    background-color: transparent;
+    background-image: url(img/contatti-bottom-white.png);
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+    height: 340px;
+    margin-top: 3%;
+    margin-bottom: -100px;
+    margin-top: -3rem;
+}
 
 
 .card {
@@ -97,10 +136,18 @@ button:focus {
     padding:1rem;
     
 }
+.card-info{
 
-.card:hover{
-    transform:scale(1.05);
-    box-shadow:5px 5px 5px  #0DB0A3;
+    background-color: rgba(13,176,163,0.8);
+    backdrop-filter: blur(4px);
+
+}
+.card {
+
+    cursor: auto;
+}
+.card-home:hover{
+    transform:scale(1.03);
 
 }
 
@@ -111,12 +158,58 @@ button:focus {
     
 }
 
+.row-contatti {
+
+    padding-top: 100px;
+
+    
+}
+
 .footer-custom{
     background-color: white; 
-    color: #203C61;  
+    color: #203C61; 
+    left: 0;
+    bottom: 0;
+    clear: both;
+    height: auto;
+    font-size: 16;
+    text-rendering: auto;
+    position: static;
+    background-repeat: no-repeat;
+    background-attachment: bottom; 
 }
 
 .footer-a{
     color: #203C61;
     text-decoration: none;
+}
+.card-form{
+
+    background-color: rgba(13,176,163,0.8);
+    backdrop-filter: blur(4px);
+    
+}
+.contact-form{
+    background: transparent; 
+    border-radius: 20px;
+
+    padding:0;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+
+.contact-form h3{
+    
+    text-align: left;
+    color: #203C61;
+}
+    
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }

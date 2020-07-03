@@ -120,18 +120,19 @@ button:focus {
     cursor:pointer;
     transition:all .4s ease-in-out;
     padding:1rem;
+    cursor: auto;
+    flex: 1;
     
 }
 .card-info{
 
     background-color: rgba(13,176,163,0.8);
     backdrop-filter: blur(4px);
+    
+    
 
 }
-.card {
 
-    cursor: auto;
-}
 .card-home:hover{
     transform:scale(1.03);
 

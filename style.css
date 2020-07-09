@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;800&display=swap');
 
 /* GENERALI */
 
@@ -8,6 +8,7 @@ body {
     background: linear-gradient(54deg, rgba(193,238,147,1) 25%, rgba(127,222,215,1) 75%);
     font-family: 'Nunito', sans-serif;
     color: #203C61;
+    width: 100%;
 
 }
 
@@ -97,6 +98,7 @@ button:focus {
     margin-bottom: -5px;
 }
 
+
 .container-contatti-bottom {
     
     background-color: transparent;
@@ -111,6 +113,14 @@ button:focus {
     margin-top: -3rem;
 }
 
+.container-quote{
+
+    text-align: center;
+    margin: 80px auto 56px;
+    font-style: italic;
+    
+}
+
 
 .card {
     
@@ -121,20 +131,36 @@ button:focus {
     transition:all .4s ease-in-out;
     padding:1rem;
     cursor: auto;
-    flex: 1;
+    flex:2;
     
+}
+
+.card-contatti {
+    
+    background: rgb(255,255,255,);
 }
 .card-info{
 
     background-color: rgba(13,176,163,0.8);
     backdrop-filter: blur(4px);
-    
-    
+}
 
+.img-card-home{
+    padding: 30px;
 }
 
 .card-home:hover{
     transform:scale(1.03);
+
+}
+
+.card-home-top{
+
+    background: rgba(13,176,163,0.4);
+    backdrop-filter: blur(4px);
+    cursor: none;
+    font-size: 20;
+    
 
 }
 

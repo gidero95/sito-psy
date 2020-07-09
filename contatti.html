@@ -27,13 +27,13 @@
             <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">SERVIZI</a>
+            <a class="nav-link" href="servizi.html">SERVIZI</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="chisono.html">CHI SONO</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="contatti.html">CONTATTI</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="contatti.html">CONTATTI</a>
           </li>
       </div>
     </div>
@@ -53,34 +53,20 @@
   <div class="container">
     <div class="row">
 
-      <div class="col-md-4 mt-4 d-flex">
 
-        <div class="card card-info">
-          <div class="card-body align-items-center  justify-content-center">
-            <blockquote class="blockquote mb-0">
-              <h5 class="card-title">Info e Contatti</h5>
-              <p>Francesca De Rosa
-              <p>cellulare 339 108 2234</p>
-              <p>e-mail francescaderosa.psy@gmail.com</p>
-              </p>
-              <footer class="blockquote-footer">
-                <small class="text-muted">
-                  Someone famous in <cite title="Source Title">Source Title</cite>
-                </small>
-              </footer>
-            </blockquote>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="col-md-8 mt-4 d-flex">
+      <div class="col-lg-7 mt-4 d-flex">
 
         <div class="card card-form">
 
           <form method="post">
 
             <div class="row">
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <textarea name="txtMsg" class="form-control" placeholder="Your Message *"
+                    style="width: 100%; height: 100%;"></textarea>
+                </div>
+              </div>
               <div class="col-lg-6">
                 <div class="form-group">
                   <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
@@ -95,49 +81,64 @@
                   <input type="submit" name="btnSubmit" class="btn-primary btn-lg" value="Send Message" />
                 </div>
               </div>
-              <div class="col-lg-6">
-                <div class="form-group">
-                  <textarea name="txtMsg" class="form-control" placeholder="Your Message *"
-                    style="width: 100%; height: 150px;"></textarea>
-                </div>
-              </div>
+             
             </div>
           </form>
 
         </div>
 
       </div>
+
+
+      <div class="col-lg-5 mt-4 d-flex">
+
+        <div class="card card-contatti">
+          <div class="card-body">
+            
+              <p><h5 class="card-title">Info e Contatti</h5></p>
+              <p>Francesca De Rosa
+              <p>339 108 2234</p>
+              <p>francescaderosa.psy@gmail.com</p>
+              </p>
+           
+          </div>
+        </div>
+
+      </div>
+
     </div>
   </div>
 
   <div class="container">
     <div class="row">
-      <div class="col-md-8 map-responsive mt-4">
-        <div class="embed-responsive embed-responsive-1by1">
+     
+      <div class="col-lg-4 mt-4 d-flex">
+
+        <div class="card card-contatti">
+          <div class="card-body align-items-center justify-content-center">
+            <div class="row ">
+              <div class="col-12 mt-4">
+              <img src="img/gomitolo-web.png" class="img-fluid">
+            </div>
+            <div class="col-12 mt-4">
+              <p class="card-text"><h5>Se ti trovi lontano dallo studio puoi prendere appuntamento per una consulenza
+                online.</h5>
+              </p>
+            </div>
+            <div class="col-12 mt-4 text-center">
+              <a class="btn btn-primary btn-lg text-center" href="servizi.html" role="button">Scopri di più</a>
+            </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-8 mt-4">
+        <div class="embed-responsive embed-responsive-16by9">
 
           <iframe class="embed-responsive-item"
             src="https://www.google.com/maps/d/embed?mid=1Knlimg1zoRWewYAfmdBlXyHz5zHrIxNX&hl=it"></iframe>
         </div>
-      </div>
-      <div class="col-md-4 mt-4 d-flex">
-
-        <div class="card card-info">
-          <div class="card-body align-items-center justify-content-center">
-            <blockquote class="blockquote mb-0">
-              <h5 class="card-title">Info e Contatti</h5>
-              <p>Francesca De Rosa
-              <p>cellulare 339 108 2234</p>
-              <p>e-mail francescaderosa.psy@gmail.com</p>
-              </p>
-              <footer class="blockquote-footer">
-                <small class="text-muted">
-                  Someone famous in <cite title="Source Title">Source Title</cite>
-                </small>
-              </footer>
-            </blockquote>
-          </div>
-        </div>
-
       </div>
     </div>
   </div>

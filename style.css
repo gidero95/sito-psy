@@ -1,7 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;800&display=swap');
-
-/* GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
 body {
     background: rgb(193,238,147);
@@ -47,6 +45,49 @@ button:focus {
     box-shadow: none;
 }
 
+#bottone-whapp{
+
+    margin-top: 38px;
+}
+
+hr {
+
+    border:0;
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+
+}
+
+p{
+    font-family: 'Lora', serif; 
+}
+
+a{
+    text-decoration: none;
+    color: #203C61;
+}
+
+a:hover {
+
+    text-decoration: none;
+    color: #203C61;
+    
+
+}
+.icona-social:hover,
+.icona-social:focus {
+    filter: invert(44%) sepia(55%) saturate(1308%) hue-rotate(139deg) brightness(102%) contrast(90%);
+}
+
+#numero-cell:hover {
+
+    color: #7FDED7;
+
+}
+
+.titoli-bold{
+
+    font-weight: 800;
+}
 
 .jumbotron-home {
     
@@ -121,7 +162,6 @@ button:focus {
     
 }
 
-
 .card {
     
     background: rgb(255,255,255);
@@ -130,7 +170,7 @@ button:focus {
     cursor:pointer;
     transition:all .4s ease-in-out;
     padding:1rem;
-    cursor: auto;
+    
     flex:2;
     
 }
@@ -138,15 +178,17 @@ button:focus {
 .card-contatti {
     
     background: rgb(255,255,255,);
+    box-shadow:6px 7px 8px 1px #8888883b;
+    cursor: auto;
 }
-.card-info{
 
-    background-color: rgba(13,176,163,0.8);
-    backdrop-filter: blur(4px);
-}
 
 .img-card-home{
     padding: 30px;
+}
+
+.card-home{
+    box-shadow:6px 7px 8px 1px #8888883b;
 }
 
 .card-home:hover{
@@ -158,10 +200,16 @@ button:focus {
 
     background: rgba(13,176,163,0.4);
     backdrop-filter: blur(4px);
-    cursor: none;
     font-size: 20;
+    cursor: auto;
     
 
+}
+
+.rounded-circle{
+    border: 5px solid rgb(255,255,255);
+    
+    
 }
 
 .row-home {
@@ -185,21 +233,24 @@ button:focus {
     padding-top: 1rem;
     padding-bottom: 1rem;
     backdrop-filter: blur(4px);
+
     
 }
 
 .navbar-nav {
-    float:none;
-    margin:0 auto;
+    float: right;;
+    
 }
 .navbar-nav .nav-item {
     padding-left: 20px;
     padding-right: 20px;
+    cursor: pointer;
 }
 
 .navbar-nav > li {
     display: inline-block;
     float:none;
+    cursor: pointer;
     
 }
 
@@ -218,10 +269,7 @@ button:focus {
     clear: both;
     height: auto;
     font-size: 16;
-    text-rendering: auto;
-    position: static;
-    background-repeat: no-repeat;
-    background-attachment: bottom; 
+  
 }
 
 .footer-a{
@@ -233,7 +281,7 @@ button:focus {
 
 .card-form{
 
-    background-color: rgba(13,176,163,0.8);
+    background-color: rgba(13,176,163,0.4);
     backdrop-filter: blur(4px);
     
 }
@@ -347,7 +395,7 @@ button:focus {
 @media only screen and (max-width:767px){
     
     .main-timeline:before{left:30px;right:0;margin:0}
-    .main-timeline .timeline{margin-bottom:70px}
+    .main-timeline .timeline{margin-bottom:2rem}
     .main-timeline .timeline:before{top:0;left:32px;right:0;margin:0}
     .main-timeline .timeline-icon{width:60px;height:60px;line-height:40px;padding:5px;top:0;left:0}
     .main-timeline .timeline:nth-child(even) 
@@ -372,4 +420,45 @@ button:focus {
     .main-timeline .timeline-content,.main-timeline .timeline:nth-child(2n) .timeline-content{padding-left:65px}
     .main-timeline .timeline-content:before,.main-timeline .timeline:nth-child(2n) .timeline-content:before{left:99px}
     .main-timeline .timeline-content:after,.main-timeline .timeline:nth-child(2n) .timeline-content:after{left:65px}
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (min-width:1200px){
+
+    hr{
+        display: none ;
+    }
+       
+}
+@media only screen and (max-width:990px){
+    .navbar-nav .nav-item {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .top-nav-item{
+        padding-top: 5px;
+    }
+
+    .navbar-nav {
+        float: left;
+        
+    }
+    
+}
+@media only screen and (max-width:767px){
+    
+    .chiasmo-img{
+
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+
+        
+}
+@media only screen and (max-width:479px){
+
+   
+    
 }

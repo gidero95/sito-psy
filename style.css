@@ -170,8 +170,7 @@ a:hover {
     cursor:pointer;
     transition:all .4s ease-in-out;
     padding:1rem;
-    
-    flex:2;
+    flex:1;
     
 }
 
@@ -199,6 +198,7 @@ a:hover {
 .card-home-top{
 
     background: rgba(13,176,163,0.4);
+    -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     font-size: 20;
     cursor: auto;
@@ -232,6 +232,7 @@ a:hover {
     background-color: rgba(13,176,163,0.8);
     padding-top: 1rem;
     padding-bottom: 1rem;
+    -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
 
     
@@ -282,6 +283,7 @@ a:hover {
 .card-form{
 
     background-color: rgba(13,176,163,0.4);
+    -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     
 }
@@ -446,6 +448,9 @@ a:hover {
         
     }
     
+    #casella-testo{
+        margin-bottom: 1rem;
+    }
 }
 @media only screen and (max-width:767px){
     
